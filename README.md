@@ -1,1 +1,1 @@
-# My_first_site
+My lading page project for The Odin Project
