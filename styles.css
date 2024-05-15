@@ -1,35 +1,58 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-.header-logo {
-    color: white;
-    padding-top: auto;
-    font-size: 24px;
-    color: #f9faf8;
-    
+@import url(reset.css);
+body {
+	box-sizing: border-box;
 }
 
 .hero {
-    height: 400px;
-    background-color: #1F2937;
+	min-height: 60vh;
+	background-color: #1f2937;
 
 }
 
 header {
-    display: flex;
-    justify-content: space-around; /* Располагает элементы в начале и в конце контейнера с промежутком между ними */
-    align-items: center; /* Выравнивает элементы по вертикали по центру */
-    padding-top: 10px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	
+}
+header h1 {
+	font-size: 24px;
+	color: #f9faf8;
+	margin-top: 8px;
 }
 
+.links {
+	margin-top: 10px;
+	display: flex;
+	gap: 20px;
+}
 
-nav a {
-    margin-left: 10px;
-    padding-top: 20px;
-    font-size: 18px;
-    color: #E5E7EB;
-    text-decoration: none;
+.links a {
+	text-decoration: none;
+	font-size: 18px;
+	color: #e5e7eb;
+}
+
+.main {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	max-width: 80%;
+	}
+
+.main h1 {
+	font-size: 48px;
+	font-weight: 900;
+	color: #f9faf8
+}
+
+.main_left p {
+	font-size: 18px;
+	color: #e5e7eb;
+
+}
+.main_right {
+	flex: 1;
+	max-width: 100%;
+	height: auto;
 }
