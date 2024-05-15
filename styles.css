@@ -10,12 +10,22 @@
 	height: 50vh;
 }
 
+.second_part {
+	background-color: white;
+	height: 50vh;
+}
+
 .hero>* {
 
 	margin-left: 25vh;
 	margin-right: 25vh;
 
 
+}
+
+.second_part > * {
+	margin-left: 25vh;
+	margin-right: 25vh;
 }
 
 
@@ -48,7 +58,12 @@ a {
 
 .main_hero {
 	margin-top: 10vh;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	
 }
+
 
 .left_side > h1 {
 	font-size: 48px;
@@ -75,4 +90,48 @@ a {
 
 .styledbutton:hover {
 	background-color: #69a1f8;
+}
+
+
+.right_side {
+	display: flex;
+	justify-content: end;
+	flex: 1;
+}
+.right_side img {
+	
+	max-width: 60%;
+	height: auto;
+	
+}
+
+.placeholders {
+	display: flex;
+	justify-content: space-around;
+	flex: 1;
+}
+
+.image-placeholder {
+    width: 120px;
+    height: 120px;
+	border: 3px solid #3882f6;
+    background-color: white;
+	border-radius: 8px;
+    border-radius: 20px;
+	
+    margin-bottom: 10px; /* Отступ снизу для описания */
+}
+
+.image-container > p {
+	max-width: 100px;
+	
+}
+
+.second_part > h1 {
+	font-size: 36px;
+	font-weight: 900;
+	color: #1f2937;
+	text-align: center;
+	margin-bottom: 40px;
+	margin-top: 20px;
 }
