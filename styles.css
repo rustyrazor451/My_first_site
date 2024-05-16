@@ -15,6 +15,29 @@
 	height: 50vh;
 }
 
+.third_part {
+	background-color: #e5e7eb;
+	height: 50vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.fourth-part {
+	height: 40vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+footer {
+	display: flex;
+	height: 15vh;
+	justify-content: center;
+	align-items: center;
+	background-color: #1f2937;
+}
+
 .hero>* {
 
 	margin-left: 25vh;
@@ -134,4 +157,64 @@ a {
 	text-align: center;
 	margin-bottom: 40px;
 	margin-top: 20px;
+}
+
+.quote {
+	font-style: italic;
+	font-weight: 400;
+	color: #1f2937;
+	font-size: 36px;
+	margin-left: 35vh;
+	margin-right: 35vh;
+}
+
+.quote-author {
+	font-weight: 900;
+	font-size: 24px;
+	text-align: right;
+	margin-right: 45vh;
+	margin-top: 14px;
+}
+
+.fpcontainer {
+	width: 70%;
+	height: 50%;
+	background-color: #3882f6;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	border-radius: 8px;
+}
+
+.fpcontainer > button {
+	padding: 8px 25px;
+	font-size: 16px;
+	color: white;
+	background-color: #3882f6;
+	border: 2px solid white;
+	border-radius: 8px;
+	cursor: pointer;
+}
+
+.fpcontainer > button:hover {
+	background-color: #69a1f8;
+}
+
+.callto > h1 {
+	color: white;
+	font-weight: 900;
+	font-size: 24px;
+
+}
+
+.callto > p {
+	color: #e5e7eb;
+	
+	font-weight: 400;
+	font-size: 18px;
+}
+
+footer > p {
+	font-size: 18px;
+	color: #e5e7eb;
 }
